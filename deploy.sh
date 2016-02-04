@@ -27,7 +27,7 @@ echo curl -i -X POST  \
   -H "Content-Type: multipart/form-data" \
   -F "name=${APP_NAME}" \
   -F "runtime=node" \
-  -F "deployment=@package.json" \
+  -F "deployment=@deployment-1.json" \
   -F "subscription=Monthly" \
   -F archiveURL=${APP_NAME}/${ARCHIVE_FILE} \
   https://${APAAS_HOST}/paas/service/apaas/api/v1.1/apps/${ID_DOMAIN}
@@ -38,7 +38,7 @@ curl -i -X POST  \
   -H "Content-Type: multipart/form-data" \
   -F "name=${APP_NAME}" \
   -F "runtime=node" \
-  -F "deployment=@package.json" \
+  -F "deployment=@deployment-1.json" \
   -F "subscription=Monthly" \
   -F archiveURL=${APP_NAME}/${ARCHIVE_FILE} \
   https://${APAAS_HOST}/paas/service/apaas/api/v1.1/apps/${ID_DOMAIN}
