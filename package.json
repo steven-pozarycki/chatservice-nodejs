@@ -4,7 +4,7 @@
   "description": "Simple node Chat",
   "main": "server.js",
   "scripts": {
-    "pre-publish": "zip -r node-chat-server.zip *.json *.js"
+    "prepublish": "zip -r node-chat-server.zip *.json *.js"
   },
   "repository": {
     "type": "git",
