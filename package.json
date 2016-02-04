@@ -1,0 +1,19 @@
+{
+  "name": "node-chat-server",
+  "version": "1.0.0",
+  "description": "Simple node Chat",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://steven-pozarycki@github.com/steven-pozarycki/chatservice-nodejs.git"
+  },
+  "author": "Steven",
+  "license": "ISC",
+  "dependencies": {
+    "ws": "^1.0.1"
+  }
+}
+
