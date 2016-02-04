@@ -10,7 +10,7 @@
   "author": "Steven",
   "engines": {
     "node": "0.10.x"
-  }
+  },
   "license": "ISC",
   "dependencies": {
     "ws": "^1.0.1"
