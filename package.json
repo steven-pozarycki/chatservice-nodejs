@@ -6,10 +6,6 @@
   "scripts": {
     "prepublish": "zip -r node-chat-server.zip *.json *.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://cloud.admin@developer.us2.oraclecloud.com/developer20114-metcsgse00034/s/developer20114-metcsgse00034_devops-example/scm/SP-ChatService.git"
-  },
   "author": "Steven",
   "engines": {
     "node": "0.10.x"
