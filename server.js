@@ -1,6 +1,7 @@
 var http = require('http');
 
-var PORT = process.env.PORT || 80;
+//var PORT = process.env.PORT || 80;
+var PORT = process.env.OPENSHIFT_NODEJS_PORT || 80;
 
 var topicList = [];
 var topicDetail = {};
